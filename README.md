@@ -1,8 +1,8 @@
 - [1](linear-transformations-study-guide.md)
-- [1](linear-algebra-notes-(2).md)
-- [1](LinearMath-Notes/linear-algebra-notes-(3).md)
-- [1](LinearMath-Notes/linear-algebra-notes-(4).md)
-- [1](linear-algebra-notes (5).md)
+- [1](linear-algebra-notes%20(2).md)
+- [1](linear-algebra-notes%20(3).md)
+- [1](linear-algebra-notes%20(4).md)
+- [1](linear-algebra-notes%20(5).md)
 
 ## Usage
 - Each note builds upon previous concepts

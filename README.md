@@ -4,7 +4,8 @@
 - [4](linear-algebra-notes%20(4).md)
 - [5](linear-algebra-notes%20(5).md)
 - [6](linear-algebra-notes%20(6).md)
-  
+- [7](linear-algebra-notes%20(7).md)
+-   
 ## Usage
 - Each note builds upon previous concepts
 - Notes include detailed examples and visualizations

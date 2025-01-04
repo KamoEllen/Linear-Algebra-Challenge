@@ -206,3 +206,141 @@ Check: w₁·w₂ should equal 0
 3. Break complex problems into parallel/perpendicular components
 4. Remember that unit vectors simplify calculations
 5. Verify your answers using key properties
+
+
+-----------------------------------------------------------------------
+add notes from lecture :
+0:00
+in this video we'll talk about the
+0:02
+gram-schmidt process which is also
+0:04
+sometimes called gram-schmidt
+0:05
+orthogonalization so our goal for this
+0:09
+process is given a subspace of RN we'd
+0:12
+like to find an orthogonal or
+0:13
+orthonormal basis for W and the
+0:16
+gram-schmidt process allows us to start
+0:17
+with any basis for W and use it to
+0:19
+construct a new basis that is orthogonal
+0:21
+or orthonormal whichever one we want so
+0:26
+here's how the process works so we start
+0:28
+with a basis X 1 X 2 up through XP and
+0:31
+we assume that that's a basis for the
+0:32
+subspace W and then we're going to
+0:34
+construct new vectors which we'll call
+0:36
+these V 1 V 2 up through V P and this is
+0:39
+the way we're going to construct it so
+0:40
+starts off easy the first V 1 is just
+0:42
+the same as X 1 but then V 2 is X 2
+0:46
+minus X 2 dot V 1 divided by V 1 V 1
+0:49
+times B 1 so what I want you to
+0:52
+recognize is that this right here is the
+0:54
+projection of X 2 onto V 1 and so when
+1:05
+we subtract that what V 2 is is the
+1:08
+component of X 2 that's orthogonal to V
+1:11
+1 and so that's gonna guarantee two
+1:14
+things it's gonna guarantee that V 2 is
+1:16
+orthogonal to V 1 and it's also gonna
+1:18
+guarantee that the span of v1 and v2 is
+1:21
+the same as the span of X 1 and X 2 and
+1:23
+now when we move onto V 3 we're
+1:26
+subtracting both the projection of X 3
+1:29
+onto V 1 and also the projection of X 3
+1:32
+onto V 2 so we're taking away the
+1:35
+portions the components of X 3 that
+1:37
+point in the direction of V 1 or the
+1:39
+point in the direction of V 2 and so
+1:41
+what we'll remain after we subtract
+1:43
+those pieces is the component of X 3
+1:45
+that's orthogonal to both v1 and v2 and
+1:48
+so V 3 will be orthogonal to both V 1
+1:51
+and V 2 and we won't lose anything from
+1:54
+the span the span of v1 v2 and v3 will
+1:57
+be the same as the span of X 1 X 2 and X
+1:59
+3 and so on so when we finish this
+2:02
+process this V vectors will all be
+2:04
+orthogonal to each other and they'll
+2:07
+span the same subspace that the XS band
+2:09
+and so that's the theorem the theorem
+2:12
+says that when we do this construction
+2:14
+those V vectors form not just a basis
+2:17
+for W because we already had that but
+2:18
+this is an orthogonal basis for W now
+2:22
+what do we do if what we really wanted
+2:24
+was an orthonormal basis well in that
+2:26
+case all we do is first use the
+2:28
+gram-schmidt process to find an
+2:29
+orthogonal basis and then we just
+2:31
+normalize each vector to obtain an
+2:33
+orthonormal basis remember that to
+2:35
+normalize a vector you just divide it by
+2:37
+its length so you take the V vectors and
+2:39
+you look at the lengths of each of those
+2:41
+vectors and if that vector isn't already
+2:43
+a unit vector you divide that vector by
+2:45
+its length to create a unit vector 

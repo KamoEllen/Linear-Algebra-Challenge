@@ -1,3 +1,5 @@
+--not complete. 
+
 - [1](linear-transformations-study-guide.md)
 - [2](linear-algebra-notes%20(2).md)
 - [3](linear-algebra-notes%20(3).md)
